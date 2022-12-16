@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834D774C294CA3CF00EDD356 /* projekt_freitagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D774B294CA3CF00EDD356 /* projekt_freitagApp.swift */; };
+		834D774E294CA3CF00EDD356 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D774D294CA3CF00EDD356 /* ContentView.swift */; };
+		834D7750294CA3D000EDD356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D774F294CA3D000EDD356 /* Assets.xcassets */; };
+		834D7753294CA3D000EDD356 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D7752294CA3D000EDD356 /* Preview Assets.xcassets */; };
+		834D775D294CA3D000EDD356 /* projekt_freitagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D775C294CA3D000EDD356 /* projekt_freitagTests.swift */; };
+		834D7767294CA3D000EDD356 /* projekt_freitagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7766294CA3D000EDD356 /* projekt_freitagUITests.swift */; };
+		834D7769294CA3D000EDD356 /* projekt_freitagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7768294CA3D000EDD356 /* projekt_freitagUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834D7759294CA3D000EDD356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D7740294CA3CF00EDD356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D7747294CA3CF00EDD356;
+			remoteInfo = projekt_freitag;
+		};
+		834D7763294CA3D000EDD356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D7740294CA3CF00EDD356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D7747294CA3CF00EDD356;
+			remoteInfo = projekt_freitag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		834D7748294CA3CF00EDD356 /* projekt_freitag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projekt_freitag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D774B294CA3CF00EDD356 /* projekt_freitagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projekt_freitagApp.swift; sourceTree = "<group>"; };
+		834D774D294CA3CF00EDD356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		834D774F294CA3D000EDD356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834D7752294CA3D000EDD356 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		834D7758294CA3D000EDD356 /* projekt_freitagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projekt_freitagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D775C294CA3D000EDD356 /* projekt_freitagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projekt_freitagTests.swift; sourceTree = "<group>"; };
+		834D7762294CA3D000EDD356 /* projekt_freitagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projekt_freitagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D7766294CA3D000EDD356 /* projekt_freitagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projekt_freitagUITests.swift; sourceTree = "<group>"; };
+		834D7768294CA3D000EDD356 /* projekt_freitagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projekt_freitagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834D7745294CA3CF00EDD356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D7755294CA3D000EDD356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D775F294CA3D000EDD356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834D773F294CA3CF00EDD356 = {
+			isa = PBXGroup;
+			children = (
+				834D774A294CA3CF00EDD356 /* projekt_freitag */,
+				834D775B294CA3D000EDD356 /* projekt_freitagTests */,
+				834D7765294CA3D000EDD356 /* projekt_freitagUITests */,
+				834D7749294CA3CF00EDD356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834D7749294CA3CF00EDD356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834D7748294CA3CF00EDD356 /* projekt_freitag.app */,
+				834D7758294CA3D000EDD356 /* projekt_freitagTests.xctest */,
+				834D7762294CA3D000EDD356 /* projekt_freitagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834D774A294CA3CF00EDD356 /* projekt_freitag */ = {
+			isa = PBXGroup;
+			children = (
+				834D774B294CA3CF00EDD356 /* projekt_freitagApp.swift */,
+				834D774D294CA3CF00EDD356 /* ContentView.swift */,
+				834D774F294CA3D000EDD356 /* Assets.xcassets */,
+				834D7751294CA3D000EDD356 /* Preview Content */,
+			);
+			path = projekt_freitag;
+			sourceTree = "<group>";
+		};
+		834D7751294CA3D000EDD356 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				834D7752294CA3D000EDD356 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834D775B294CA3D000EDD356 /* projekt_freitagTests */ = {
+			isa = PBXGroup;
+			children = (
+				834D775C294CA3D000EDD356 /* projekt_freitagTests.swift */,
+			);
+			path = projekt_freitagTests;
+			sourceTree = "<group>";
+		};
+		834D7765294CA3D000EDD356 /* projekt_freitagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				834D7766294CA3D000EDD356 /* projekt_freitagUITests.swift */,
+				834D7768294CA3D000EDD356 /* projekt_freitagUITestsLaunchTests.swift */,
+			);
+			path = projekt_freitagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834D7747294CA3CF00EDD356 /* projekt_freitag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D776C294CA3D000EDD356 /* Build configuration list for PBXNativeTarget "projekt_freitag" */;
+			buildPhases = (
+				834D7744294CA3CF00EDD356 /* Sources */,
+				834D7745294CA3CF00EDD356 /* Frameworks */,
+				834D7746294CA3CF00EDD356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projekt_freitag;
+			productName = projekt_freitag;
+			productReference = 834D7748294CA3CF00EDD356 /* projekt_freitag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834D7757294CA3D000EDD356 /* projekt_freitagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D776F294CA3D000EDD356 /* Build configuration list for PBXNativeTarget "projekt_freitagTests" */;
+			buildPhases = (
+				834D7754294CA3D000EDD356 /* Sources */,
+				834D7755294CA3D000EDD356 /* Frameworks */,
+				834D7756294CA3D000EDD356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D775A294CA3D000EDD356 /* PBXTargetDependency */,
+			);
+			name = projekt_freitagTests;
+			productName = projekt_freitagTests;
+			productReference = 834D7758294CA3D000EDD356 /* projekt_freitagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834D7761294CA3D000EDD356 /* projekt_freitagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D7772294CA3D000EDD356 /* Build configuration list for PBXNativeTarget "projekt_freitagUITests" */;
+			buildPhases = (
+				834D775E294CA3D000EDD356 /* Sources */,
+				834D775F294CA3D000EDD356 /* Frameworks */,
+				834D7760294CA3D000EDD356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D7764294CA3D000EDD356 /* PBXTargetDependency */,
+			);
+			name = projekt_freitagUITests;
+			productName = projekt_freitagUITests;
+			productReference = 834D7762294CA3D000EDD356 /* projekt_freitagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834D7740294CA3CF00EDD356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					834D7747294CA3CF00EDD356 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					834D7757294CA3D000EDD356 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 834D7747294CA3CF00EDD356;
+					};
+					834D7761294CA3D000EDD356 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 834D7747294CA3CF00EDD356;
+					};
+				};
+			};
+			buildConfigurationList = 834D7743294CA3CF00EDD356 /* Build configuration list for PBXProject "projekt_freitag" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834D773F294CA3CF00EDD356;
+			productRefGroup = 834D7749294CA3CF00EDD356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834D7747294CA3CF00EDD356 /* projekt_freitag */,
+				834D7757294CA3D000EDD356 /* projekt_freitagTests */,
+				834D7761294CA3D000EDD356 /* projekt_freitagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834D7746294CA3CF00EDD356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D7753294CA3D000EDD356 /* Preview Assets.xcassets in Resources */,
+				834D7750294CA3D000EDD356 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D7756294CA3D000EDD356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D7760294CA3D000EDD356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834D7744294CA3CF00EDD356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D774E294CA3CF00EDD356 /* ContentView.swift in Sources */,
+				834D774C294CA3CF00EDD356 /* projekt_freitagApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D7754294CA3D000EDD356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D775D294CA3D000EDD356 /* projekt_freitagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D775E294CA3D000EDD356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D7767294CA3D000EDD356 /* projekt_freitagUITests.swift in Sources */,
+				834D7769294CA3D000EDD356 /* projekt_freitagUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834D775A294CA3D000EDD356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D7747294CA3CF00EDD356 /* projekt_freitag */;
+			targetProxy = 834D7759294CA3D000EDD356 /* PBXContainerItemProxy */;
+		};
+		834D7764294CA3D000EDD356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D7747294CA3CF00EDD356 /* projekt_freitag */;
+			targetProxy = 834D7763294CA3D000EDD356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		834D776A294CA3D000EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		834D776B294CA3D000EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834D776D294CA3D000EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"projekt_freitag/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax.projekt-freitag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834D776E294CA3D000EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"projekt_freitag/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax.projekt-freitag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		834D7770294CA3D000EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax.projekt-freitagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projekt_freitag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/projekt_freitag";
+			};
+			name = Debug;
+		};
+		834D7771294CA3D000EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax.projekt-freitagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projekt_freitag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/projekt_freitag";
+			};
+			name = Release;
+		};
+		834D7773294CA3D000EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax.projekt-freitagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = projekt_freitag;
+			};
+			name = Debug;
+		};
+		834D7774294CA3D000EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax.projekt-freitagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = projekt_freitag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834D7743294CA3CF00EDD356 /* Build configuration list for PBXProject "projekt_freitag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D776A294CA3D000EDD356 /* Debug */,
+				834D776B294CA3D000EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D776C294CA3D000EDD356 /* Build configuration list for PBXNativeTarget "projekt_freitag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D776D294CA3D000EDD356 /* Debug */,
+				834D776E294CA3D000EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D776F294CA3D000EDD356 /* Build configuration list for PBXNativeTarget "projekt_freitagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D7770294CA3D000EDD356 /* Debug */,
+				834D7771294CA3D000EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D7772294CA3D000EDD356 /* Build configuration list for PBXNativeTarget "projekt_freitagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D7773294CA3D000EDD356 /* Debug */,
+				834D7774294CA3D000EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834D7740294CA3CF00EDD356 /* Project object */;
+}
